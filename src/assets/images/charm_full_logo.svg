@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 110" width="460" height="110" fill="none">
+  <defs>
+    <linearGradient id="charm-cyan-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="charm-dark-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="60%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Outer C Arc -->
+    <path 
+      d="M 88 18 C 64 6, 28 12, 14 42 C 0 72, 10 98, 42 104 C 68 110, 94 100, 102 88 C 86 96, 60 96, 42 88 C 26 80, 20 62, 26 42 C 32 22, 58 16, 88 18 Z" 
+      fill="url(#charm-cyan-blue)" 
+    />
+    <!-- Bottom Swoosh -->
+    <path 
+      d="M 16 60 C 10 78, 20 98, 48 104 C 74 110, 98 100, 106 86 C 86 96, 58 98, 40 88 C 26 80, 20 66, 16 60 Z" 
+      fill="url(#charm-dark-blue)" 
+    />
+    <!-- Cross -->
+    <g transform="translate(46, 36)">
+      <rect x="13" y="0" width="16" height="44" rx="5" fill="#1d4ed8" />
+      <rect x="0" y="14" width="42" height="16" rx="5" fill="#1d4ed8" />
+    </g>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(125, 0)">
+    <text x="0" y="22" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-weight="700" font-size="18" fill="#1e3a8a">사) 누가</text>
+    <text x="0" y="72" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-weight="900" font-size="48" fill="#1e3a8a" letter-spacing="-1.5">참의원</text>
+    <text x="2" y="102" font-family="Arial, sans-serif" font-weight="700" font-size="22" fill="#1e3a8a" letter-spacing="-0.5">Charm Medical Center</text>
+  </g>
+</svg>
